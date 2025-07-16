@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>M Riyan - UI/UX Designer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for nicer scroll experience */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #4b5563; /* Tailwind gray-700 */
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-track {
+      background-color: #f3f4f6; /* Tailwind gray-100 */
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+  <!-- Header / Navigation -->
+  <header class="bg-white shadow-md sticky top-0 z-30">
+    <div class="container mx-auto flex justify-between items-center p-5 md:p-8">
+      <h1 class="text-2xl font-bold text-indigo-700">M Riyan</h1>
+      <nav>
+        <ul class="flex space-x-8 text-gray-600 font-medium tracking-widest uppercase text-sm">
+          <li>
+            <a href="#about" class="hover:text-indigo-700 transition">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="hover:text-indigo-700 transition">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="hover:text-indigo-700 transition">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / About Section -->
+  <section id="about" class="container mx-auto p-6 md:flex md:items-center md:gap-10 mt-12">
+    <div class="md:flex-1 flex justify-center md:justify-start mb-8 md:mb-0">
+      <img
+        src="WhatsApp Image 2025-07-16 at 11.57.50_e72ce697.jpg"
+        alt="Professional portrait of M Riyan, a UI UX designer, wearing a light shirt and tie, standing against a warm beige textured background"
+        class="rounded-lg shadow-lg max-w-xs w-full object-cover"
+
+      />
+    </div>
+    <div class="md:flex-1 max-w-xl text-center md:text-left">
+      <h2 class="text-4xl font-extrabold text-indigo-700 mb-4 leading-tight">Hi, I'm M Riyan</h2>
+      <p class="text-lg text-gray-700 mb-6">A passionate <strong>UI/UX Designer</strong> crafting beautiful and user-friendly digital experiences.</p>
+
+      <div class="space-y-4 text-left text-gray-700 font-semibold tracking-wide">
+        <p><span class="text-indigo-700">Phone:</span> <a href="tel:+03327080451" class="text-indigo-600 hover:underline">03327080451</a></p>
+        <p><span class="text-indigo-700">Email:</span> <a href="mailto:riyannaveed736@gmail.com" class="text-indigo-600 hover:underline">riyannaveed736@gmail.com</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-white mt-20 py-12">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-indigo-700 mb-12 text-center">My Portfolio</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- Portfolio Cards -->
+        <article class="rounded-lg shadow-lg overflow-hidden hover:shadow-indigo-500/50 transition-shadow duration-300">
+          <img
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b77a7d87-6434-4a0d-b0f5-c7ca0416c552.png"
+            alt="Screenshot of Project 1: a sleek, modern mobile app UI design with a blue color scheme and smooth interface"
+            class="w-full object-cover h-48"
+            onerror="this.onerror=null;this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/97f21f3f-3d5b-49f5-a800-fb8d7466f816.png';"
+          />
+          <div class="p-5 bg-gray-50">
+            <h4 class="font-semibold text-lg text-indigo-700 mb-2">Project 1 - Mobile App UI</h4>
+            <p class="text-gray-700 text-sm">Designed a sleek and intuitive mobile app UI focusing on user experience and seamless navigation.</p>
+          </div>
+        </article>
+
+        <article class="rounded-lg shadow-lg overflow-hidden hover:shadow-indigo-500/50 transition-shadow duration-300">
+          <img
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/86fc5701-a6e6-421c-8460-6a1e751200dc.png"
+            alt="Screenshot of Project 2: a modern, responsive website homepage design with green accents and clean typography"
+            class="w-full object-cover h-48"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Unavailable&style=graphic&color=cccccc&font=roboto';"
+          />
+          <div class="p-5 bg-gray-50">
+            <h4 class="font-semibold text-lg text-indigo-700 mb-2">Project 2 - Website Redesign</h4>
+            <p class="text-gray-700 text-sm">Revamped the UI of a corporate website improving usability, accessibility, and aesthetics.</p>
+          </div>
+        </article>
+
+        <article class="rounded-lg shadow-lg overflow-hidden hover:shadow-indigo-500/50 transition-shadow duration-300">
+          <img
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8562c3bd-9186-4c9b-9b5a-07b3eecf11dd.png"
+            alt="Screenshot of Project 3: dashboard UI design with charts, graphs and a clean purple themed interface"
+            class="w-full object-cover h-48"
+            onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Image+Unavailable&style=graphic&color=cccccc&font=roboto';"
+          />
+          <div class="p-5 bg-gray-50">
+            <h4 class="font-semibold text-lg text-indigo-700 mb-2">Project 3 - Dashboard Interface</h4>
+            <p class="text-gray-700 text-sm">Crafted an interactive and visually appealing dashboard for data-driven decision making.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto p-6 my-20 max-w-xl bg-indigo-50 rounded-lg shadow-lg">
+    <h3 class="text-3xl font-bold text-indigo-700 mb-6 text-center">Get in Touch</h3>
+    <form action="mailto:riyannaveed736@gmail.com" method="post" enctype="text/plain" class="space-y-6">
+      <div>
+        <label for="name" class="block font-semibold mb-1 text-gray-700">Name</label>
+        <input required id="name" name="Name" type="text" placeholder="Your full name" class="w-full border border-indigo-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+      </div>
+      <div>
+        <label for="email" class="block font-semibold mb-1 text-gray-700">Email</label>
+        <input required id="email" name="Email" type="email" placeholder="Your email address" class="w-full border border-indigo-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"/>
+      </div>
+      <div>
+        <label for="message" class="block font-semibold mb-1 text-gray-700">Message</label>
+        <textarea required id="message" name="Message" rows="5" placeholder="Write your message..." class="w-full border border-indigo-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="bg-indigo-700 text-white rounded px-6 py-2 font-bold tracking-wide hover:bg-indigo-800 transition">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-indigo-100 py-6 mt-20">
+    <div class="container mx-auto text-center text-sm">
+      © 2024 M Riyan | UI/UX Designer. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
+
